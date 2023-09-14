@@ -7,6 +7,7 @@
 }
 :root{
     --clr1: rgb(214, 242, 255);
+    --bgwhite:white;
 }
 .flx{
     display: flex;
@@ -176,6 +177,30 @@
 .profile-up>div{
     border-left: 1px solid rgba(0, 0, 0, 0.228);
     padding: 0 5px 0 10px;
+}
+.status{
+    gap: 10px;
+    width: 100%;
+    border: 1 px solid black;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.status-box{
+    min-width: 200px;
+    max-width: 280px;
+    padding: 10px;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+    background-color: var(--bgwhite);
+}
+.calander{
+    height: 40%;
+    width: 98.5%;
+    background-color: var(--bgwhite);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 
